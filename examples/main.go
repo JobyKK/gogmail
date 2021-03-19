@@ -14,7 +14,7 @@ func main()  {
 	password := os.Getenv("password")
 	if password == "" {
 		panic("password is not set")
-	}git
+	}
 	client := gogmail.NewGmailClient(email, password)
 
 	to := []string{"123@gmail.com"}
